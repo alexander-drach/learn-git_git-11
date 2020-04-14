@@ -67,3 +67,21 @@ h1, h2, h3, p {
 }
 
 /* partners end */
+.about-title-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-item {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.about-item:nth-child(even) .about-item-img {
+    order: -1;
+}
+
+.about-item-text-title {
+    display: flex;
+    flex-direction: column;
+}
