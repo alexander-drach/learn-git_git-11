@@ -22,7 +22,7 @@ h1, h2, h3, p {
 .list {
     padding-left: 0;
     margin: 0;
-    list-style-type: 0;
+    list-style-type: none;
 }
 
 .container {
@@ -50,3 +50,20 @@ h1, h2, h3, p {
     line-height: 1;
     margin-bottom: 80px;
 }
+
+/* partners */
+
+.partners {
+    margin-bottom: 60px;
+}
+
+.list_partners {
+    display: flex;
+    justify-content: center;
+}
+
+.list_partners .list__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+/* partners end */
